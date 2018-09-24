@@ -1,0 +1,27 @@
+* {
+	box-sizing: 60em;
+}
+
+body {
+	max-width: 50em;
+	margin: 1em auto;
+}
+.row {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.row section{
+}
+.pd2{
+	padding-left: 2em;
+}
+img {
+	width: 100%;
+}
+header, footer{
+	border: 1px solid black;
+	padding: 1em;
+	text-align: center;
+}
+
+
