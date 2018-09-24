@@ -1,4 +1,4 @@
-#from sys import argv
+from sys import argv
 from bottle import *
 import urllib.request, json
 
@@ -40,4 +40,5 @@ def static_skrar(skra):
 def villa(error):
     return "<h2 style='color:blue'>ERROR</h2>"
 
-run(host='localhost', port=8080, reloader=True, debug=True)
+#run(host='localhost', port=8080, reloader=True, debug=True)
+run(host='0.0.0.0',port=argv[1], debug=True)
